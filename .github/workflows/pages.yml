@@ -34,8 +34,8 @@ jobs:
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>gx – Google Cloud project switcher</title>
-            <script src="https://cdn.jsdelivr.net/npm/marked@18.0.2/marked.min.js"
-                    integrity="sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb"
+            <script src="https://cdn.jsdelivr.net/npm/marked@18.0.0/lib/marked.umd.js"
+                    integrity="sha384-1aMAiqPR6Jpp2ovDW/Tqre8BoApCC6risqqjCOlv07CLlSNKnh+qFQAillZd53PA"
                     crossorigin="anonymous"></script>
             <style>
               :root { color-scheme: light dark; }
