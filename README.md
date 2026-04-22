@@ -9,6 +9,7 @@ Uses [`fzf`](https://github.com/junegunn/fzf) for interactive fuzzy project sele
 | Command | Description |
 |---------|-------------|
 | `gx`   | **Permanently** switch the active project via `gcloud config set project` |
+| `gx -` | Switch back to the **previous** project (like `cd -`) |
 | `tgx`  | **Temporarily** switch the project for the current shell session only (sets `CLOUDSDK_CORE_PROJECT`) |
 
 ## Requirements
@@ -50,6 +51,13 @@ $ gx
   my-project-b
   my-project-c
 Switched to project: my-project-a
+```
+
+Run `gx -` to switch back to the previous project:
+
+```
+$ gx -
+Switched to project: my-project-b
 ```
 
 Run `tgx` to switch only for the current shell session:
